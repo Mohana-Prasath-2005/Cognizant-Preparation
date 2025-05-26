@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>CSS Methods Demo</title>
+  
+  <!-- Internal CSS -->
+  <style>
+    /* Body background color using embedded style */
+    body {
+      background-color: #f0f8ff; /* AliceBlue */
+    }
+  </style>
+
+  <!-- External CSS file -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Inline style to make this heading red -->
+  <h1 style="color: red;">This heading is red (inline style)</h1>
+
+  <h2 id="mainHeader">Main Banner (styled by external CSS)</h2>
+
+  <div class="eventCard">
+    Event card content styled externally
+  </div>
+
+</body>
+</html>

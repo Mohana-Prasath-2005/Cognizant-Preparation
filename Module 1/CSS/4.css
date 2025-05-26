@@ -1,0 +1,29 @@
+/* Body with fallback color and background image */
+body {
+  background-color: #e6f0ff; /* fallback */
+  background-image: url('cityscape.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #222;
+}
+
+/* Section headers with linear gradient background */
+section h2 {
+  background: linear-gradient(90deg, #0056b3, #00aaff);
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+/* Text color with HEX and RGBA */
+p {
+  color: #333333; /* HEX */
+}
+
+.highlight {
+  background-color: rgba(0, 170, 255, 0.2); /* RGBA */
+  padding: 5px;
+  border-radius: 4px;
+}

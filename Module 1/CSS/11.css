@@ -1,0 +1,15 @@
+11. Debug and Test with Dev Tools and VS Code
+
+Chrome DevTools:
+
+Press F12 or right-click → Inspect to open DevTools.
+
+Click the Device Toolbar (mobile/tablet icon) to simulate screen sizes.
+
+Use Elements tab to select and live-edit styles.
+
+Check the Console for errors or logs.
+
+Use the Network tab to verify CSS files load successfully (look for styles.css and check status 200).
+
+Add breakpoints or edit CSS live to debug layout issues.
