@@ -1,0 +1,13 @@
+✅ Exercise 5.1
+
+<div class="row justify-content-center align-items-center" style="height: 200px;">
+  <div class="col-6">Centered Content</div>
+</div>
+
+
+✅ Exercise 5.2
+
+<div class="row">
+  <div class="col-md-6 order-md-2">Second on desktop</div>
+  <div class="col-md-6 order-md-1">First on desktop</div>
+</div>

@@ -1,0 +1,20 @@
+✅ Exercise 11.1
+
+<div class="card" style="width: 18rem;">
+  <img src="profile.jpg" class="card-img-top" alt="Profile">
+  <div class="card-body">
+    <h5 class="card-title">John Doe</h5>
+    <p class="card-text">Web Developer</p>
+  </div>
+</div>
+
+
+✅ Exercise 11.2
+
+<div class="d-flex">
+  <img src="image.jpg" class="me-3" style="width: 100px;">
+  <div>
+    <h5>Media Title</h5>
+    <p>Some media content here aligned beside the image.</p>
+  </div>
+</div>

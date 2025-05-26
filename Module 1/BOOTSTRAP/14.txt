@@ -1,0 +1,9 @@
+✅ Exercise 14.1
+
+<div class="d-none d-md-block">Visible on md and up</div>
+<div class="d-lg-flex">Flex only on lg and up</div>
+
+
+✅ Exercise 14.2
+
+<aside class="d-none d-md-block col-md-3 bg-light">Sidebar content</aside>

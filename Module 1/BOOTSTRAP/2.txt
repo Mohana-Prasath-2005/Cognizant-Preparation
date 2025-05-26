@@ -1,0 +1,14 @@
+✅ Exercise 2.1
+
+CSS folder → contains all styles
+
+JS folder → contains interactive components (e.g., modals, dropdowns)
+
+Icons folder → optional Bootstrap Icons (if included)
+
+
+✅ Exercise 2.2
+
+Include JS plugins:
+
+<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
