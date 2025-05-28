@@ -5,14 +5,14 @@ public class VirtualThreads {
     public static void main(String[] args) throws InterruptedException {
         int threadCount = 100_000;
 
-        System.out.println("🔄 Starting virtual threads...");
+        System.out.println("Starting virtual threads...");
         Instant startVirtual = Instant.now();
 
         Thread[] vThreads = new Thread[threadCount];
         for (int i = 0; i < threadCount; i++) {
             int id = i;
             vThreads[i] = Thread.startVirtualThread(() -> {
-                System.out.println("👻 Virtual Thread: " + id);
+                System.out.println("Virtual Thread: " + id);
             });
         }
 
@@ -21,6 +21,6 @@ public class VirtualThreads {
         }
 
         Instant endVirtual = Instant.now();
-        System.out.println("✅ Virtual threads completed in: " + Duration.between(startVirtual, endVirtual).toMillis() + " ms");
+        System.out.println("Virtual threads completed in: " + Duration.between(startVirtual, endVirtual).toMillis() + " ms");
     }    
 }    
